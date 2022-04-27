@@ -1,4 +1,8 @@
 #### Required library ####
+library(devtools)
+install_github("Kyuhyun07/qris")
+
+library(qris)
 library(quantreg)
 library(survival)
 library(nleqslv)
